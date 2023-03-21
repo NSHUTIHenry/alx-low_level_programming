@@ -12,4 +12,3 @@ char letters - 'a';
 	}
 _putchar('\n');
 }
-
