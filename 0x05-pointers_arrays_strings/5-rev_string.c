@@ -10,6 +10,7 @@ int len = 0;
 
 while (*s != '\0')
 {
+_putchar(*s);
 len--;
 s--;
 }
