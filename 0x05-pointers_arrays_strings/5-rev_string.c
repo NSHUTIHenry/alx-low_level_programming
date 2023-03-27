@@ -10,8 +10,8 @@ int len = 0;
 
 while (*s != '\0')
 {
-s--;
 len--;
+s--;
 }
-return (len)
+return (len);
 }
