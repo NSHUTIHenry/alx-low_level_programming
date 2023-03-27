@@ -14,4 +14,5 @@ _putchar(*s);
 len--;
 s--;
 }
+_putchar('\n');
 }
