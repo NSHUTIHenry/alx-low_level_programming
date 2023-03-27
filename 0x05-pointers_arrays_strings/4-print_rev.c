@@ -18,4 +18,5 @@ while (len > 0)
 s--;
 len--;
 }
+_putchar('\n')
 }
