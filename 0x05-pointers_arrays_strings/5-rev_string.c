@@ -10,8 +10,8 @@ int len = 0;
 
 while (*s != '\0')
 {
-_putchar('\n');
-len--;
+_putchar(*s);
 s--;
+len--;
 }
 }
