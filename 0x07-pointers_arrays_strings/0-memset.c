@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _memset - function that fills memory with bytes
  * @s: Memory pointer
