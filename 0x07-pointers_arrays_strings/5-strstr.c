@@ -6,6 +6,7 @@
  * @needle: pointer
  * Return: substring
  */
+
 char *_strstr(char *haystack, char *needle)
 {
 for (; *haystack !-'\0'; haystack++)
@@ -19,7 +20,7 @@ p++;
 j++;
 }
 
-if (*p == '\0')
+if (*j == '\0')
 return (haystack);
 }
 return (0);
