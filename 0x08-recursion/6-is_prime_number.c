@@ -17,7 +17,6 @@ int _helper(int n, int s)
 	{
 		return (0);
 	}
-	else
 		return (_helper(n, s - 1));
 }
 
@@ -33,6 +32,5 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	else
 		return (_helper(n, n - 1));
 }
