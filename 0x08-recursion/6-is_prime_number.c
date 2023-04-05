@@ -10,9 +10,13 @@
 int _helper(int n, int s)
 {
 	if (s == 1)
+	{
 		return (1);
+	}
 	if (n % s == 0 && s > 0)
+	{
 		return (0);
+	}
 		return (_helper(n, s - 1));
 }
 
