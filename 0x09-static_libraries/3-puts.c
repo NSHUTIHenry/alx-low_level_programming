@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * _puts - Entry point
- * @str: string
+ * @s: string
  * Return: Always 0 (Success)
  */
-void _puts(char *str)
+void _puts(char *s)
 {
 
 }
