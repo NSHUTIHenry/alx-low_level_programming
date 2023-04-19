@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - Entry point
- *
+ * _puts - Entry point
+ * @str: string
  * Return: Always 0 (Success)
  */
 void _puts(char *str)
