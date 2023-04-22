@@ -25,8 +25,9 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		else if (separator && i == 0)
 			printf("%s", str);
 		else
-			printf("%s%d", separator, str);
+			printf("%s%s", separator, str);
 	}
+
 	printf("\n");
 	va_end(list);
 }
